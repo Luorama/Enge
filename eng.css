@@ -1,0 +1,128 @@
+@media screen and (min-width: 320px) and (max-width: 860px){
+  
+    h1,h2,h3,h4,h5,h6{
+      position: relative;
+      font-family: arial;
+    }p,a{
+      position: relative;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      text-decoration: none;
+    }div,input,button,image{
+      outline: none;
+      position: relative;
+      position: relative;
+    }
+     body{
+       background: white;
+     }
+    
+      #topo{
+        position: relative;
+        height: 60px;
+        width: 104.4%;
+        left: -8px;
+        top: -8px;
+        background: white;
+        overflow: hidden;
+        box-shadow: 3px 0px 5px 7px silver;
+      }
+        #nome{
+          color: black;
+          left: 20px;
+          font-family: 'Courier New', Courier, monospace;
+        }
+          #menu{
+            padding: 3px;
+            height: 40px;
+            width: 40px;
+            left: 320px;
+            top: -50px;
+            background: #404040;
+            border: none;
+          }
+            #b{
+              padding: 1px;
+              width: 30px;
+              background: white;
+             margin-top: 8px;
+             left: -1px;
+             top: -4px;
+            }
+              #oque{
+                top: 80px;
+                font-size: 24px
+              }
+      #definicao{
+        top: 80px;
+        text-align: initial;
+      }
+      
+
+          #import{
+            font-size: 24px;
+            top: 10px;
+            left: 10px;
+            color:whitesmoke;
+            text-align: initial;
+            width: 290px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          }
+            .ul{
+              top: 200px;
+              position: relative;
+              font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+            
+            #caixa{
+              border: none;
+              width: 170px;
+              height: 20px;
+              top: -23px;
+              left: 40px;
+              overflow: hidden;;
+            }
+             #text0{
+               top: -7px;
+               font-size: 10px;
+               font-family: 'Courier New', Courier, monospace;
+               animation-name: text0;
+               animation-duration: 2s;
+               animation-timing-function: ease;
+             }@keyframes text0{
+               from{
+                 left: -200px;
+                 opacity: 0;
+               }to{
+                 left: 0px;
+                 opacity: 1;
+               }
+             }
+             #caixa2{
+               background: #404040;
+               width: 104.4%;
+               left: -8px;
+               height:250px;
+               top: 100px;
+               border-bottom: 2px solid red;
+               overflow: hidden;;
+             }
+              #saiba{
+                left: 200px;
+                width: 160px;
+                height: 50px;
+                color: whitesmoke;
+                background: red;
+                top: 70px;
+                border: none;
+                transition: 0.5s;
+              }#saiba:hover{
+                left: 200px;
+                width: 160px;
+                height: 50px;
+                color: red;
+                background: white;
+                top: 70px;
+                border: 2px solid red;
+                transition: 0.5s;
+              }
+}
